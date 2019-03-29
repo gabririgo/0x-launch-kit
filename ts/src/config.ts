@@ -17,8 +17,11 @@ enum EnvVarType {
 }
 // Whitelisted token addresses. Set to a '*' instead of an array to allow all tokens.
 export const WHITELISTED_TOKENS: string[] | '*' = [
-    '0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa', // ZRX on Kovan
-    '0xd0a1e359811322d97991e03f863a0c30c2cf029c', // WETH on Kovan
+    '0xe41d2489571d322189246dafa5ebde1f4699f498', // ZRX on Main
+    '0xcf67d7a481ceeca0a77f658991a00366fed558f7', // ZRXW on Main
+    '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH on Main
+    '0xaa7427d8f17d87a28f5e1ba3adbb270badbe1011', // ETHW on Main
+    '0x1a9b2d827f26b7d7c18fec4c1b27c1e8deeba26e', // USDTW on Main
 ];
 
 // Network port to listen on
